@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ofabee</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="time">07:35</string>
+    <string name="name">What is your Name ?</string>
+    <string name="ques">Questions 4 fo 20</string>
+    
+    <string name="course">My Courses</string>
+    <string name="coursename">Course Name</string>
+    
+    <string name="lecturename">Next Lecture to view</string>
+    <string name="lecturepara">The Complete Fundamentals of Fitness and Health 101</string>
+    <string name="completed">30%  Completed</string>
+    
+    <string name="description">Intractive And Engaging \n   learning Platform</string>
+    <string name="question">How many Vice Presidents at the start of its each regular session ?</string>
+    
+    
+    <string-array name="question_array">
+        <item>How many Vice Presidents1 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents2 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents3 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents4 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents5 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents6 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents7 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents8 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents9 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents10 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents11 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents12 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents13 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents14 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents15 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents16 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents17 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents18 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents19 at the start of its each regular session ?   </item>
+        <item>How many Vice Presidents20 at the start of its each regular session ?   </item>
+        </string-array>
+        
+    <string-array name="options_array1">
+        <item>Seven</item>
+        <item>Fifteen</item>
+        <item>Twenty one</item>
+        <item>Two</item>
+    </string-array>
+    
+    <string-array name="planets_array">
+        <item>Topics</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>

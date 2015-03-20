@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_red"
+    android:orientation="vertical" >
+    
+    
+    
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="#1abc9c"
+     >
+     
+        <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="10dp"
+    android:background="#1abc9c"
+     >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"
+            android:text="@string/coursename"
+            android:textSize="20dp" />
+		
+		<ImageView
+            android:id="@+id/menu_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/menu" />
+		
+		</RelativeLayout>
+		
+      </RelativeLayout>
+      
+   
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="#f1f5f4"
+        android:layout_weight="9"
+        >
+		
+         <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:layout_weight="2"
+        >
+        <RelativeLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+       android:background="@drawable/smallimg"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="3"
+        >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/smallimg" />
+
+             </RelativeLayout>
+             
+        <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop=".3dp"
+        android:layout_marginLeft=".3dp"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_weight="4"
+        >
+		<TextView
+		    android:id="@+id/txt_video"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:text="@string/lecturename"
+            android:textSize="15dp" />
+		
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:text="@string/lecturepara"
+            android:textSize="12dp" />
+		
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="#1abc9c"
+            android:text="@string/completed"
+            android:textSize="10dp" />
+		
+		<ImageView 
+		    android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/load"
+		    />
+             
+		
+		</LinearLayout>
+         </LinearLayout>
+          <LinearLayout 
+        	android:layout_width="match_parent"
+            android:layout_margin="5dp"
+       		android:layout_height="0dp"
+        	android:orientation="vertical"
+        	android:background="#d4d6d5"
+        	android:layout_weight="7"
+        >
+          
+
+              <ListView
+                  android:id="@+id/course_list"
+                  android:layout_width="match_parent"
+                  android:dividerHeight="-.5dp"
+       			  android:layout_height="match_parent"
+       			  android:background="#ffffff"
+                   >
+              </ListView>
+              
+        </LinearLayout>
+             
+         </LinearLayout>
+
+</LinearLayout>

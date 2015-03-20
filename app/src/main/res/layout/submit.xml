@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f5f4"
+    android:orientation="vertical"
+     >
+    
+    
+     <RelativeLayout
+       android:id="@+id/lay_timer" 
+        android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="3"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp"
+        >
+    <LinearLayout
+       android:id="@+id/lay_timer1" 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:background="@xml/timer_round"
+        >
+        <TextView 
+            android:id="@+id/txt_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="TIME LEFT"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="10 : 20 : 22"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000000"
+             android:layout_gravity="center"
+            android:textSize="30dp"
+            />
+        
+        
+    </LinearLayout>
+    </RelativeLayout>
+    
+    <LinearLayout
+       android:id="@+id/lay_count" 
+        android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="5"
+    	android:orientation="vertical"
+    	android:layout_centerInParent="true"
+    	android:layout_margin="10dp"
+        >
+        
+        <RelativeLayout
+          	android:id="@+id/lay_1"
+        	android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:background="@xml/answered"
+        		>
+        
+        
+         <View 
+            android:layout_width="60dp"
+    		android:layout_height="match_parent"
+    		android:background="#42000000"
+            />
+        
+        <TextView 
+            android:id="@+id/answered_count"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:layout_alignParentLeft="true"
+    		android:layout_marginLeft="20dp"
+    		android:textStyle="bold"
+    		android:textSize="15dp"
+    		android:text="20"
+    		android:textColor="#ffffff"
+            />
+        
+         <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:layout_toRightOf="@+id/answered_count"
+    		android:layout_marginLeft="60dp"
+    		android:textStyle="bold"
+    		android:textSize="15dp"
+    		android:text="Answered"
+    		android:textColor="#ffffff"
+            />
+
+        
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/lay_2"
+        	android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:layout_below="@+id/lay_1"
+    		android:layout_marginTop="10dp"
+    		android:background="@xml/revised_later"
+       		 >
+        
+        
+         <View 
+            android:layout_width="60dp"
+    		android:layout_height="match_parent"
+    		android:background="#42000000"
+            />
+        
+        <TextView 
+            android:id="@+id/revised_count"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:layout_alignParentLeft="true"
+    		android:layout_marginLeft="20dp"
+    		android:textStyle="bold"
+    		android:textSize="15dp"
+    		android:text="5"
+    		android:textColor="#ffffff"
+            />
+        
+         <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:layout_toRightOf="@+id/revised_count"
+    		android:layout_marginLeft="60dp"
+    		android:textStyle="bold"
+    		android:textSize="15dp"
+    		android:text="Revised Later"
+    		android:textColor="#ffffff"
+            />
+
+        
+        </RelativeLayout>
+        
+        
+        
+        <RelativeLayout
+            android:id="@+id/lay_3"
+        android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+    	android:layout_marginTop="10dp"
+    	android:layout_below="@+id/lay_2"
+    	android:background="@xml/skipped"
+        >
+        
+        
+         <View 
+            android:layout_width="60dp"
+    		android:layout_height="match_parent"
+    		android:background="#42000000"
+            />
+        
+        <TextView 
+            android:id="@+id/skipped_count"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:layout_alignParentLeft="true"
+    		android:layout_marginLeft="20dp"
+    		android:textStyle="bold"
+    		android:textSize="15dp"
+    		android:text="2"
+    		android:textColor="#ffffff"
+            />
+        
+         <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:layout_toRightOf="@+id/skipped_count"
+    		android:layout_marginLeft="60dp"
+    		android:textStyle="bold"
+    		android:textSize="15dp"
+    		android:text="Skipped"
+    		android:textColor="#ffffff"
+            />
+
+        
+        </RelativeLayout>
+        
+        
+        
+        <RelativeLayout
+            android:id="@+id/lay_4"
+        android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+    	android:layout_marginTop="10dp"
+    	android:layout_below="@+id/lay_3"
+    	android:background="@xml/round11"
+        >
+        
+        
+         <View 
+            android:layout_width="60dp"
+    		android:layout_height="match_parent"
+    		android:background="#42000000"
+            />
+        
+        <TextView 
+            android:id="@+id/unattempted_count"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:layout_alignParentLeft="true"
+    		android:layout_marginLeft="20dp"
+    		android:textStyle="bold"
+    		android:textSize="15dp"
+    		android:text="15"
+    		android:textColor="#ffffff"
+            />
+        
+         <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerVertical="true"
+    		android:layout_toRightOf="@+id/unattempted_count"
+    		android:layout_marginLeft="60dp"
+    		android:textStyle="bold"
+    		android:textSize="15dp"
+    		android:text="Answered"
+    		android:textColor="#ffffff"
+            />
+
+        
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+    
+    <RelativeLayout
+       android:id="@+id/lay_final" 
+        android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="2"
+    	android:layout_marginBottom="5dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:layout_below="@+id/lay_count"
+        >
+        
+        
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_toLeftOf="@+id/centre"
+    		android:ems="8"
+    		android:padding="10dp"
+    		android:layout_centerVertical="true"
+    		android:textSize="10sp"
+    		android:background="@xml/skipped"
+    		android:text="Review Test"
+            />
+        
+        <View
+            android:id="@+id/centre" 
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerInParent="true"
+            />
+        
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_toRightOf="@+id/centre"
+    		android:ems="8"
+    		android:padding="10dp"
+    		android:textSize="10sp"
+    		android:layout_centerVertical="true"
+    		android:background="@xml/answered"
+    		android:text="Submit"
+            />
+        
+    </RelativeLayout>
+    
+
+</LinearLayout>
